@@ -1,0 +1,23 @@
+{
+  "name": "programming-langugages-api",
+  "version": "1.0.0",
+  "description": "A demo REST API with Node.js Express.js and MySQL for most popular programming languages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geshan/programming-langugages-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geshan/programming-langugages-api/issues"
+  },
+  "homepage": "https://github.com/geshan/programming-langugages-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
