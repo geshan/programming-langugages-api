@@ -32,4 +32,14 @@ router.put('/:id', async function(req, res, next) {
   }
 });
 
+/* DELETE programming language */
+router.delete('/:id', async function(req, res, next) {
+  try {
+    res.json(await programmingLanguages.remove(req.params.id));
+  } catch (err) {
+    console.error(`Error while deleting programming language`, err.message);
+    next(err);
+  }
+});
+
 module.exports = router;
