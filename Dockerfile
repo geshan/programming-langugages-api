@@ -1,11 +1,11 @@
 FROM node:14-alpine as base
 
 WORKDIR /src
-COPY package*.json /
+COPY package*.json ./
 EXPOSE 3000
 
 FROM base as production
 ENV NODE_ENV=production
 RUN npm ci
-COPY . /
+COPY . ./
 CMD ["node", "bin/www"]
