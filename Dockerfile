@@ -8,4 +8,4 @@ FROM base as production
 ENV NODE_ENV=production
 RUN npm ci
 COPY . ./
-CMD ["node", "bin/www"]
+CMD ["node", "index.js"]
