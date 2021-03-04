@@ -3,6 +3,8 @@ application:
   name: "programming-langugages-api"
   project: "programming-languages-api"
   organization: "QoveryCommunity"
+  publicly_accessible: true
+  port: 3000
 routers:
 - name: "main-programming-langugages-api"
   routes:
