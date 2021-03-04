@@ -1,0 +1,11 @@
+---
+application:
+  name: "programming-langugages-api"
+  project: "programming-languages-api"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-programming-langugages-api"
+  routes:
+  - application_name: "programming-langugages-api"
+    paths:
+    - "/*"
