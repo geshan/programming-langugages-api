@@ -4,6 +4,7 @@
   "description": "A demo REST API with Node.js Express.js and MySQL for most popular programming languages",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
